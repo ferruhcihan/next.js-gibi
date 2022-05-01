@@ -25,7 +25,8 @@ export default Home;
 
 export async function getServerSideProps(context: any) {
   // Fetch data from external API
-  const res = await fetch(`http://localhost:3000/api/quotes`);
+  // const res = await fetch(`http://localhost:3000/api/quotes`);
+  const res = await fetch(`https://next-js-gibi.vercel.app/api/quotes`);
   const { quote } = await res.json();
 
   // Pass data to the page via props

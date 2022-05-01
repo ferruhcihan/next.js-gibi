@@ -3,8 +3,8 @@
   background: rgb(0, 0, 128);
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 128, 1) 0%,
-    rgba(0, 128, 0, 1) 100%
+    rgba(0, 128, 0, 1) 0%,
+    rgba(0, 0, 128, 1) 100%
   );
   display: flex;
   justify-content: center;

@@ -11,5 +11,5 @@ export default function handler(
 ) {
   res
     .status(200)
-    .json({ quote: '"Belki de bu yüzden yalnızca cesurların işidir badana"' });
+    .json({ quote: "Belki de bu yüzden yalnızca cesurların işidir badana." });
 }

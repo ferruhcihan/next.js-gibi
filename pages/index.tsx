@@ -16,7 +16,7 @@ const Home: NextPage<IHome> = ({ quote }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className={styles.title}>{quote}</h1>
+      <h1 className={styles.title}>&quot;{quote}&quot;</h1>
     </div>
   );
 };
